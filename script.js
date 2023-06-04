@@ -165,7 +165,7 @@ function draw() {
             matrix[y][x] = 2
             var grE = new GrassEater(x, y, 2)
             grassEaterArr.push(grE)
-            
+
         }
     }
     if (PredatorArr.length == 0) {
@@ -178,4 +178,4 @@ function draw() {
         }
     }
 }
-    
+

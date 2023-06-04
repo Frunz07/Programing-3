@@ -468,7 +468,7 @@ class Karmir {
     }
 
     die() {
-        if (this.energy ++) {
+        if (this.energy++) {
             matrix[this.y][this.x] = 0
             for (var i in karmirArr) {
                 if (karmirArr[i].x == this.x && karmirArr[i].y == this.y) {
